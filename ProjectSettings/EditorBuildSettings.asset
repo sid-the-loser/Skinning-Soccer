@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sid/Scenes/Ending.unity
     guid: f3def2b4a436ed94b89349e62aa9ea3f
+  - enabled: 1
+    path: Assets/Ryan/Scenes/SandyScene.unity
+    guid: 76241cb2fbc46b94eb261b5cc7f29c6c
+  - enabled: 1
+    path: Assets/Ryan/Scenes/SnowyScene.unity
+    guid: e7252d1b35a4894489a2f0b31c430362
   m_configObjects: {}

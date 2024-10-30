@@ -2635,7 +2635,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1714035045}
         m_TargetAssemblyTypeName: Sid.Scripts.Main_Menu.MenuManager, Assembly-CSharp
-        m_MethodName: TestSceneButton
+        m_MethodName: SnowySceneButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2902,7 +2902,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1714035045}
         m_TargetAssemblyTypeName: Sid.Scripts.Main_Menu.MenuManager, Assembly-CSharp
-        m_MethodName: TestSceneButton
+        m_MethodName: SandySceneButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

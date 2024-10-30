@@ -157,12 +157,12 @@ namespace Sid.Scripts.Main_Menu
         
         public void SandySceneButton()
         {
-            SceneManager.LoadScene("Sid/Scenes/Test Scene");
+            SceneManager.LoadScene("Ryan/Scenes/SandyScene");
         }
         
         public void SnowySceneButton()
         {
-            SceneManager.LoadScene("Sid/Scenes/Test Scene");
+            SceneManager.LoadScene("Ryan/Scenes/SnowyScene");
         }
 
         #endregion
