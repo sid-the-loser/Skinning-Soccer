@@ -7,11 +7,11 @@ namespace Sid.Scripts.Gameplay.Ball
     {
         private void Start()
         {
-            if (SkinHandler.MaterialsList is not null)
+            if (SkinHandler.BallMaterialsList is not null)
             {
-                if (SkinHandler.MaterialsList.Length > 0)
+                if (SkinHandler.BallMaterialsList.Length > 0)
                 {
-                    GetComponent<Renderer>().material = SkinHandler.MaterialsList[SkinHandler.BallMaterialIndex];
+                    GetComponent<Renderer>().material = SkinHandler.BallMaterialsList[SkinHandler.BallMaterialIndex];
                 }
             }
         }

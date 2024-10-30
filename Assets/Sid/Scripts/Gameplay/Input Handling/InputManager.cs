@@ -31,6 +31,11 @@ namespace Sid.Scripts.Gameplay.Input_Handling
             else udlrVector.x = 0;
             if (Input.GetKey(KeyCode.RightArrow)) udlrVector.x = 1;
             else if (udlrVector.x == 0) udlrVector.x = 0;
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene("Sid/Scenes/Test Menu");
+            }
         }
     }
 }
