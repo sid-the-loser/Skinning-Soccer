@@ -1,15 +1,16 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PostDetection : MonoBehaviour
+namespace Sid.Scripts.Gameplay.Winning_Handler
 {
-    [SerializeField] private int whoWins = 1;
-
-    private void OnTriggerEnter(Collider other)
+    public class PostDetection : MonoBehaviour
     {
-        SceneManager.LoadScene("Sid/Scenes/Ending");
+        [SerializeField] private int whoWins = 1;
+
+        private void OnTriggerEnter(Collider other)
+        {
+            WonHandler.WhoWon = whoWins;
+            SceneManager.LoadScene("Sid/Scenes/Ending");
+        }
     }
 }

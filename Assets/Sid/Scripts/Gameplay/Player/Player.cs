@@ -40,7 +40,7 @@ namespace Sid.Scripts.Gameplay.Player
 
         private void FixedUpdate()
         {
-            Vector3 currentVel;
+            var currentVel = new Vector3();
             
             if (useWasd)
             {
@@ -52,6 +52,12 @@ namespace Sid.Scripts.Gameplay.Player
             }
 
             _rb.velocity = currentVel;
+            
+            if (useWasd)
+            {
+                print(currentVel);
+                print(_rb.velocity);
+            }
         }
     }
 }
