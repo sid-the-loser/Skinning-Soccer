@@ -910,7 +910,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -11.32, y: 0, z: 0}
-  m_LocalScale: {x: 24.410002, y: 1, z: 1}
+  m_LocalScale: {x: 24.410002, y: 3.96, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1548386724}
@@ -1246,6 +1246,7 @@ GameObject:
   - component: {fileID: 513696303}
   - component: {fileID: 513696302}
   - component: {fileID: 513696305}
+  - component: {fileID: 513696306}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1342,6 +1343,18 @@ MonoBehaviour:
   escapeToMenu: 0
   wasdVector: {x: 0, y: 0, z: 0}
   udlrVector: {x: 0, y: 0, z: 0}
+--- !u!114 &513696306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513696301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7a0aee8fa06fe458dcde43b2b7fd8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &567805496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1743,7 +1756,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 11.32, y: 0, z: 0}
-  m_LocalScale: {x: 24.410002, y: 1, z: 1}
+  m_LocalScale: {x: 24.410002, y: 3.96, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1548386724}
@@ -2043,7 +2056,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10.95}
-  m_LocalScale: {x: 24.41, y: 1, z: 1}
+  m_LocalScale: {x: 24.41, y: 3.96, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1548386724}
@@ -2202,7 +2215,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10.95}
-  m_LocalScale: {x: 24.41, y: 1, z: 1}
+  m_LocalScale: {x: 24.41, y: 3.96, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1548386724}

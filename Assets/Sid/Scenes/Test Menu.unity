@@ -5541,7 +5541,7 @@ Transform:
   m_GameObject: {fileID: 1714035041}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 2.28, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5582,10 +5582,12 @@ MonoBehaviour:
   - {fileID: 2100000, guid: e8c3c3f0cfa758644b55f147e8bf0897, type: 2}
   - {fileID: 2100000, guid: d706800abce89fc41b84eb5d83f69dd2, type: 2}
   - {fileID: 2100000, guid: 5a653342a5032d448b7d313fc3049bea, type: 2}
+  - {fileID: 2100000, guid: d8ca26eb2761dd24198814f4204f1e0c, type: 2}
   player2MaterialsList:
   - {fileID: 2100000, guid: 8d0cf3876f7fce14bbda4d82c4f022ab, type: 2}
   - {fileID: 2100000, guid: d038b0832de3d4b48be10a2f049fabf0, type: 2}
   - {fileID: 2100000, guid: e3083b0785142e842ac3c6ac73a55ec9, type: 2}
+  - {fileID: 2100000, guid: 731e575e20950e14a9e38a35f4868a5c, type: 2}
   ballGameObject: {fileID: 998993453}
   player1GameObject:
   - {fileID: 540723655}
