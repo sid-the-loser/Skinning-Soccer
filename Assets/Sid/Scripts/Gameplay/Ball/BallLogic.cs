@@ -2,11 +2,14 @@ using System;
 using Sid.Scripts.Skin_Handler;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 namespace Sid.Scripts.Gameplay.Ball
 {
     public class BallLogic : MonoBehaviour
     {
+        [SerializeField] private float maxVelocity = 2f;
+        
         private Vector3 _startingPos;
 
         private Rigidbody _rb;
@@ -26,9 +29,17 @@ namespace Sid.Scripts.Gameplay.Ball
             }
         }
 
+        void FixedUpdate()
+        {
+            if (_rb.velocity.magnitude > maxVelocity)
+            {
+                _rb.velocity = _rb.velocity.normalized * maxVelocity;
+            }
+        }
+
         private void Update()
         {
-            if (transform.position.y < -100)
+            if (transform.position.y < -10)
             {
                 _rb.isKinematic = true;
                 transform.position = _startingPos;

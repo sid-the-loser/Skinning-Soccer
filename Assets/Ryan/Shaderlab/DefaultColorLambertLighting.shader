@@ -1,8 +1,8 @@
-Shader "Sid/DefaultColor"
+Shader "Ryan/DefaultColorLambertLighting"
 {
-    Properties
+     Properties
     {
-        _albedoColor ("Albedo Color", Color) = (0, 1, 1, 1)
+        _albedoColor ("Albedo Color", Color) = (1, 1, 1, 1)
     }
     SubShader
     {
@@ -24,5 +24,5 @@ Shader "Sid/DefaultColor"
         
         ENDCG
     }
-    Fallback "Diffuse"
+    //Fallback "Diffuse"
 }
