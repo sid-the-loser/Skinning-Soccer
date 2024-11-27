@@ -1,5 +1,8 @@
 # Skinning-Soccer
 
+> **Note:**
+> This documentation is old and is for `cg1.0.0` the latest version is `cg2.0.0`, the documentation for it shall be done soon!
+
 Assignment done by: Sidharth Suresh (100938544) and Ryan Cheng (100920050)
 
 [Assignment 1 Video](https://youtu.be/IbArj4pltgk)
