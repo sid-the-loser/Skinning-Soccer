@@ -152,4 +152,4 @@ This shader combines both rim shading at the same time makes the objects surface
 This was only used on the ball and the players as a skin that you can equip.
 
 # External Assets
-The textures for the materials taken from: [https://3dtextures.me/](https://3dtextures.me/)
+The textures for the materials taken from: [https://3dtextures.me/](https://3dtextures.me/) & [https://www.kenney.nl/assets/voxel-pack](https://www.kenney.nl/assets/voxel-pack)
